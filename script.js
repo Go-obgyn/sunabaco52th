@@ -21,8 +21,8 @@
     });
   }
 
-  // Update stage by scrolling progress in hero section.
-  function updateHeroStage() {
+  // Update stage by scrolling progress in hero section and toggle utility UI.
+  function updateByScroll() {
     const rect = hero.getBoundingClientRect();
     const totalScrollable = Math.max(rect.height - window.innerHeight, 1);
     const progress = clamp(-rect.top / totalScrollable, 0, 0.9999);
@@ -31,23 +31,12 @@
 
     // Header readability after user moves away from top.
     header.classList.toggle('scrolled', window.scrollY > 16);
+
+    // FAB appears shortly after passing one viewport worth of scrolling.
+    fabWrap.classList.toggle('visible', window.scrollY > window.innerHeight * 0.95);
   }
 
-  // Hide FAB while hero is in view, show after hero section.
-  const heroObserver = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        const heroVisible = entry.isIntersecting;
-        fabWrap.classList.toggle('visible', !heroVisible);
-      });
-    },
-    {
-      threshold: 0.03,
-    }
-  );
-
-  heroObserver.observe(hero);
-  window.addEventListener('scroll', updateHeroStage, { passive: true });
-  window.addEventListener('resize', updateHeroStage);
-  updateHeroStage();
+  window.addEventListener('scroll', updateByScroll, { passive: true });
+  window.addEventListener('resize', updateByScroll);
+  updateByScroll();
 })();
