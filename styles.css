@@ -35,6 +35,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -155,7 +156,11 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.3rem;
+  gap: 0.2rem;
+}
+
+.header-inner nav {
+  min-width: 0;
 }
 
 .brand {
@@ -168,16 +173,16 @@ h3 {
 
 .header-nav {
   display: flex;
-  gap: 0.3rem;
+  gap: 0.16rem;
   font-family: var(--font-label);
-  font-size: 0.72rem;
+  font-size: 0.66rem;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .header-nav a {
   display: block;
-  padding: 0.2rem;
+  padding: 0.16rem;
   text-decoration: none;
 }
 
@@ -309,6 +314,29 @@ h3 {
 .master-copy {
   display: grid;
   gap: var(--space-3);
+}
+
+
+.master-image-feature {
+  padding: clamp(0.3rem, 1.2vw, 0.7rem);
+  background: #ece6dd;
+  border: 1px solid rgba(51, 46, 44, 0.14);
+}
+
+.master-image-feature figcaption {
+  margin-top: 0.55rem;
+  font-family: var(--font-label);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(51, 46, 44, 0.72);
+}
+
+.master-lead {
+  font-family: var(--font-serif);
+  font-size: clamp(1.08rem, 2.8vw, 1.24rem);
+  line-height: 1.85;
+  letter-spacing: 0.02em;
 }
 
 .master-points {
