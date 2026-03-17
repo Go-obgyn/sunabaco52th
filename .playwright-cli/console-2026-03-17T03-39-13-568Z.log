@@ -1,0 +1,16 @@
+[     113ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-coffee.webp:0
+[     610ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-sofa.webp:0
+[     611ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-table.webp:0
+[     954ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/favicon.ico:0
+[  143742ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-coffee.webp:0
+[  143771ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-sofa.webp:0
+[  143773ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-table.webp:0
+[  201411ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-coffee.webp:0
+[  201420ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-sofa.webp:0
+[  201421ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-table.webp:0
+[  256523ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-coffee.webp:0
+[  256546ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-sofa.webp:0
+[  256561ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-table.webp:0
+[  319836ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-coffee.webp:0
+[  319860ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-sofa.webp:0
+[  319860ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8000/images/hero-table.webp:0
