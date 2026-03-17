@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896 1344" role="img" aria-labelledby="title desc">
+  <title id="title">Master hand drip photo placeholder</title>
+  <desc id="desc">Warm-toned placeholder inspired by a barista pouring hand-drip coffee at a wooden counter.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d5c2ac"/>
+      <stop offset="100%" stop-color="#8e6f52"/>
+    </linearGradient>
+  </defs>
+  <rect width="896" height="1344" fill="url(#bg)"/>
+  <rect x="0" y="0" width="230" height="1344" fill="#a88562" opacity="0.52"/>
+  <rect x="160" y="760" width="736" height="584" fill="#9a7656" opacity="0.55"/>
+  <ellipse cx="390" cy="370" rx="118" ry="132" fill="#7a6353" opacity="0.85"/>
+  <path d="M188 1160C224 866 294 586 384 586h126c108 0 184 264 220 574" fill="#283445" opacity="0.88"/>
+  <path d="M450 824l188-102 80 136-232 66z" fill="#b08a5f" opacity="0.82"/>
+  <ellipse cx="615" cy="842" rx="78" ry="54" fill="#ece5da"/>
+  <rect x="538" y="872" width="154" height="128" fill="#705739" opacity="0.72"/>
+  <text x="50%" y="95%" text-anchor="middle" fill="#f8f2e9" font-family="Montserrat, sans-serif" font-size="34" letter-spacing="6">MASTER DRIP IMAGE</text>
+</svg>

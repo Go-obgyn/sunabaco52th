@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Master portrait placeholder</title>
+  <desc id="desc">Soft neutral placeholder image for SUNABA CAFE master portrait section.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8d0c4" />
+      <stop offset="100%" stop-color="#c4b6a3" />
+    </linearGradient>
+    <linearGradient id="silhouette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a7b6d" />
+      <stop offset="100%" stop-color="#6f6256" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)" />
+  <rect x="120" y="1080" width="960" height="300" fill="#b7a895" opacity="0.65" />
+  <circle cx="600" cy="560" r="165" fill="url(#silhouette)" opacity="0.82" />
+  <path d="M330 1210c22-292 138-438 270-438s248 146 270 438" fill="url(#silhouette)" opacity="0.82" />
+  <text x="50%" y="92%" text-anchor="middle" fill="#4f463f" font-family="Montserrat, sans-serif" font-size="44" letter-spacing="8">MASTER IMAGE</text>
+</svg>
