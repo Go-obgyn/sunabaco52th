@@ -35,7 +35,6 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
@@ -45,7 +44,6 @@ body {
   line-height: 1.7;
   color: var(--color-text);
   background: var(--color-base);
-  overflow-x: hidden;
 }
 
 img {
@@ -270,9 +268,9 @@ h3 {
   letter-spacing: 0.08em;
   z-index: 1;
   text-shadow:
-    0 1px 1px rgba(0, 0, 0, 0.18),
-    0 6px 18px rgba(0, 0, 0, 0.34),
-    0 18px 40px rgba(0, 0, 0, 0.24);
+    0 2px 3px rgba(0, 0, 0, 0.3),
+    0 10px 26px rgba(0, 0, 0, 0.42),
+    0 22px 52px rgba(0, 0, 0, 0.34);
 }
 
 .scroll-hint {
@@ -443,8 +441,16 @@ h3 {
 }
 
 .space-image {
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 5 / 4;
   min-width: 0;
+}
+
+.space-image-main img {
+  object-position: 50% 52%;
+}
+
+.space-image-sub img {
+  object-position: 50% 50%;
 }
 
 .facility-grid {
@@ -737,7 +743,17 @@ h3 {
   }
 
   .space-gallery {
-    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: clamp(1rem, 2.4vw, 2rem);
+  }
+
+  .space-image {
+    aspect-ratio: 5 / 4;
+  }
+
+  .space-image-sub {
+    margin-top: clamp(1.2rem, 4vw, 3rem);
   }
 
   .facility-grid {
