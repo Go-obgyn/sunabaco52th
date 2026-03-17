@@ -39,8 +39,11 @@
       <section class="hero" id="hero" aria-label="SUNABA CAFE ヒーロー">
         <div class="hero-sticky">
           <div class="hero-media" aria-hidden="true">
-            <figure class="media-frame hero-image is-active" data-stage-image="0">
+            <figure class="media-frame hero-image hero-image-coffee is-active" data-stage-image="0">
               <img src="images/hero-coffee.png" alt="湯気が立つコーヒーとコーヒー豆" loading="eager" />
+              <span class="hero-steam" aria-hidden="true">
+                <span class="hero-steam-core"></span>
+              </span>
             </figure>
             <figure class="media-frame hero-image" data-stage-image="1">
               <img src="images/hero-sofa.png" alt="窓辺のカウンターでコーヒーを楽しむ客席" loading="lazy" />
@@ -52,9 +55,18 @@
           </div>
 
           <div class="hero-copy-wrap">
-            <p class="hero-copy is-active" data-stage-text="0">日常に、おいしい深呼吸を。</p>
-            <p class="hero-copy" data-stage-text="1">灯る、香る、くつろぐ。</p>
-            <p class="hero-copy" data-stage-text="2">懐かしいのに、あたらしい。</p>
+            <p class="hero-copy is-active" data-stage-text="0">
+              <span class="hero-copy-line">日常に、</span>
+              <span class="hero-copy-line">おいしい深呼吸を。</span>
+            </p>
+            <p class="hero-copy" data-stage-text="1">
+              <span class="hero-copy-line">灯る、香る、</span>
+              <span class="hero-copy-line">くつろぐ。</span>
+            </p>
+            <p class="hero-copy" data-stage-text="2">
+              <span class="hero-copy-line">懐かしいのに、</span>
+              <span class="hero-copy-line">あたらしい。</span>
+            </p>
           </div>
           <p class="scroll-hint" aria-hidden="true">Scroll</p>
         </div>
