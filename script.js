@@ -46,7 +46,7 @@
 
     // FAB appears shortly after passing one viewport worth of scrolling.
     if (fabWrap) {
-      fabWrap.classList.toggle('visible', window.scrollY > window.innerHeight * 0.95);
+      fabWrap.classList.toggle('visible', window.scrollY > window.innerHeight * 0.9);
     }
   }
 
