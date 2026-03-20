@@ -447,7 +447,13 @@ h3 {
   font-size: clamp(1.18rem, 3.2vw, 1.52rem);
   line-height: 1.8;
   letter-spacing: 0.04em;
-  max-width: 18ch;
+  max-width: 100%;
+}
+
+.about-lead-line {
+  display: block;
+  inline-size: fit-content;
+  max-inline-size: 100%;
 }
 
 .about-body {

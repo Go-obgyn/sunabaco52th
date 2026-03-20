@@ -1,0 +1,194 @@
+- generic [active] [ref=e1]:
+  - link "本文へスキップ" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - paragraph [ref=e5]: SUNABA CAFE
+      - navigation "主要ナビゲーション" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Story" [ref=e9] [cursor=pointer]:
+              - /url: "#master"
+          - listitem [ref=e10]:
+            - link "Menu" [ref=e11] [cursor=pointer]:
+              - /url: "#menu"
+          - listitem [ref=e12]:
+            - link "Space" [ref=e13] [cursor=pointer]:
+              - /url: "#space"
+          - listitem [ref=e14]:
+            - link "Info" [ref=e15] [cursor=pointer]:
+              - /url: "#access"
+  - main [ref=e16]:
+    - region "SUNABA CAFE ヒーロー" [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - figure [ref=e20]:
+            - text: Image
+            - img [ref=e21]
+          - figure [ref=e22]:
+            - text: Image
+            - img [ref=e23]
+          - figure [ref=e24]:
+            - text: Image
+            - img [ref=e25]
+        - paragraph [ref=e28]:
+          - generic [ref=e29]: 日常に、
+          - generic [ref=e30]: おいしい深呼吸を。
+        - paragraph [ref=e31]: Scroll
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - paragraph [ref=e35]: About
+        - paragraph [ref=e36]: Imabari / Since 1960
+        - heading "SUNABA CAFE" [level=1] [ref=e37]
+        - paragraph [ref=e38]:
+          - generic [ref=e39]: 1960年創業。
+          - generic [ref=e40]: 駅のそばで、静かさを味わう喫茶店。
+        - paragraph [ref=e41]: 喫茶店のぬくもりはそのままに、今の感覚で通いたくなる軽やかさを整えた。肩ひじ張らず、それでいて少し気分が上がる。そんな時間が自然に似合う場所です。
+        - generic "店舗の魅力" [ref=e42]:
+          - generic [ref=e43]:
+            - term [ref=e44]: Established
+            - definition [ref=e45]: 1960年創業
+          - generic [ref=e46]:
+            - term [ref=e47]: Location
+            - definition [ref=e48]: 駅近で立ち寄りやすい立地
+          - generic [ref=e49]:
+            - term [ref=e50]: Comfort
+            - definition [ref=e51]: 40席・全席禁煙・Wi-Fi・コンセント
+        - generic "主要導線" [ref=e52]:
+          - link "店舗情報を見る" [ref=e53] [cursor=pointer]:
+            - /url: "#access"
+          - link "メニューを見る" [ref=e54] [cursor=pointer]:
+            - /url: "#menu"
+      - generic [ref=e55]:
+        - figure "Soft Daylight / Quiet Seats" [ref=e56]:
+          - text: Image
+          - img "柔らかな自然光が差し込む SUNABA CAFE の店内" [ref=e57]
+          - generic [ref=e58]: Soft Daylight / Quiet Seats
+        - generic [ref=e59]:
+          - paragraph [ref=e60]: Quiet Luxury
+          - paragraph [ref=e61]: 喫茶の落ち着きに、今の軽やかさを重ねた一軒。
+    - generic [ref=e63]:
+      - paragraph [ref=e64]: Master & Philosophy
+      - heading "一杯の所作に、店の空気が宿る。" [level=2] [ref=e65]
+      - generic [ref=e66]:
+        - figure "Hand Drip / Master at the Counter" [ref=e67]:
+          - text: Image
+          - img "カウンターでハンドドリップコーヒーを淹れるSUNABA CAFEのマスター" [ref=e68]
+          - generic [ref=e69]: Hand Drip / Master at the Counter
+        - generic [ref=e70]:
+          - paragraph [ref=e71]: カウンターに立つマスターが大事にしているのは、豆の個性を静かに引き出し、食事のあとまで気持ちよく続く一杯にすること。
+          - paragraph [ref=e72]: 湯の温度、注ぐ速さ、香りの立ち方をその日の空気に合わせて整えながら、いつもの一杯をこの店らしい深呼吸の時間に変えていく。昔ながらの喫茶店の落ち着きに、今の感覚で通いたくなる軽やかさを重ねる。それが SUNABA CAFE の変わらない姿勢。
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - term [ref=e75]: 豆の輪郭
+              - definition [ref=e76]: 食事と合わせても重たくなりすぎない、やわらかなコクときれいな後味。
+            - generic [ref=e77]:
+              - term [ref=e78]: 湯の所作
+              - definition [ref=e79]: 気温や湿度を見ながら、湯温と注ぐスピードを細かく整えて香りと甘みを引き出す。
+            - generic [ref=e80]:
+              - term [ref=e81]: カウンター
+              - definition [ref=e82]: 会話したい日も静かに過ごしたい日も、自然に居場所が見つかる距離感。
+    - generic [ref=e84]:
+      - paragraph [ref=e85]: Signature Menu
+      - heading "気分に寄り添う、定番の味わい" [level=2] [ref=e86]
+      - generic [ref=e87]:
+        - article [ref=e88]:
+          - figure [ref=e89]:
+            - text: Image
+            - img "湯気の立つナポリタンのクローズアップ" [ref=e90]
+          - generic [ref=e91]:
+            - paragraph [ref=e92]: Napolitan
+            - heading "昔ながらの鉄板ナポリタン" [level=3] [ref=e93]
+            - paragraph [ref=e94]: 1,100円
+            - paragraph [ref=e95]: 濃厚なソースと太麺が絡む、どこか懐かしくて満たされる一皿。
+            - paragraph [ref=e96]: ※ テイクアウト可能
+        - article [ref=e97]:
+          - figure [ref=e98]:
+            - text: Image
+            - img "湯気の立つオリジナルブレンドコーヒー" [ref=e99]
+          - generic [ref=e100]:
+            - paragraph [ref=e101]: Coffee
+            - heading "オリジナルブレンドコーヒー" [level=3] [ref=e102]
+            - paragraph [ref=e103]: 550円
+            - paragraph [ref=e104]: 深いコクとすっきりした後味で、食事にもひと息つきたい時間にもよく合う。
+            - paragraph [ref=e105]: ※ テイクアウト可能
+    - generic [ref=e107]:
+      - paragraph [ref=e108]: Space & Facility
+      - heading "静かな時間を過ごせる、ゆとりある店内" [level=2] [ref=e109]
+      - generic [ref=e110]:
+        - figure [ref=e111]:
+          - text: Image
+          - img "大きな窓と庭の景色が広がる店内" [ref=e112]
+        - figure [ref=e113]:
+          - text: Image
+          - img "木の温もりのある広々とした店内" [ref=e114]
+      - list "設備情報" [ref=e115]:
+        - listitem [ref=e116]: Wi-Fi
+        - listitem [ref=e117]: コンセント
+        - listitem [ref=e118]: 40席 / 全席禁煙
+        - listitem [ref=e119]: 駐車場あり
+        - listitem [ref=e120]: テイクアウト可
+        - listitem [ref=e121]: 現金 / クレジットカード / QR決済
+    - generic [ref=e123]:
+      - paragraph [ref=e124]: Commitment
+      - heading "また立ち寄りたくなる理由" [level=2] [ref=e125]
+      - paragraph [ref=e126]: 昔ながらの喫茶店の温かさを土台に、光や余白、器、味わいまで丁寧に整える。気づけばまた立ち寄りたくなる、そんな空気感を大切にしている。
+    - generic [ref=e128]:
+      - paragraph [ref=e129]: Access & Information
+      - heading "店舗情報" [level=2] [ref=e130]
+      - generic [ref=e131]:
+        - figure [ref=e132]:
+          - text: Image
+          - img "SUNABA CAFEの外観" [ref=e133]
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - term [ref=e137]: 店舗名
+              - definition [ref=e138]: SUNABA CAFE
+            - generic [ref=e139]:
+              - term [ref=e140]: 創業
+              - definition [ref=e141]: 1960年創業
+            - generic [ref=e142]:
+              - term [ref=e143]: 住所
+              - definition [ref=e144]: 〒794-0015 愛媛県今治市常盤町4-8-18 しまなみイノベーションビル2階
+            - generic [ref=e145]:
+              - term [ref=e146]: 営業時間
+              - definition [ref=e147]: 9:00 - 20:00
+            - generic [ref=e148]:
+              - term [ref=e149]: 定休日
+              - definition [ref=e150]: 火曜定休
+            - generic [ref=e151]:
+              - term [ref=e152]: お支払い
+              - definition [ref=e153]: 現金 / クレジット / QR決済
+            - generic [ref=e154]:
+              - term [ref=e155]: 座席
+              - definition [ref=e156]: 40席 / 全席禁煙 / 駐車場あり
+            - generic [ref=e157]:
+              - term [ref=e158]: 電話
+              - definition [ref=e159]: 070××××××××
+          - generic "店舗情報の操作" [ref=e160]:
+            - link "Google Mapsで開く" [ref=e161] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/Cwc1Z7Pf1ZpS4zGR6?g_st=ic
+            - link "メニューを見る" [ref=e162] [cursor=pointer]:
+              - /url: "#menu"
+      - generic [ref=e163]:
+        - iframe [ref=e165]:
+          
+        - generic [ref=e166]:
+          - paragraph [ref=e167]: Arrival
+          - heading "駅前の余白で、深呼吸する一杯を。" [level=3] [ref=e168]
+          - paragraph [ref=e169]: 初めての来店でもたどり着きやすい立地です。外部地図では周辺道路や駐車位置もあわせて確認できます。
+          - paragraph [ref=e170]: メニューはこのページでそのまま確認できます。電話番号は準備中のため、現在は地図案内をご利用ください。
+    - generic [ref=e173]:
+      - generic [ref=e174]:
+        - paragraph [ref=e175]: Instagram
+        - heading "Instagramは準備中です" [level=2] [ref=e176]
+        - paragraph [ref=e177]: 公開までは、このページのメニューと店舗情報をご利用ください。最新情報の発信は準備が整い次第ご案内します。
+        - paragraph [ref=e178]: ※ QRはダミー画像です。
+      - figure [ref=e179]:
+        - text: Image
+        - img "Instagramアカウント用のダミーQRコード" [ref=e180]
+  - contentinfo [ref=e181]:
+    - generic [ref=e182]:
+      - paragraph [ref=e183]: © SUNABA CAFE
+      - paragraph [ref=e184]: 今治市常盤町 4-8-18
